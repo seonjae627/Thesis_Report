@@ -1,0 +1,43 @@
+\maketitle  % command to print the title page with above variables
+\setcounter{page}{1}
+%---------------------------------------------------------------------
+%                  영문 초록을 입력하시오
+%---------------------------------------------------------------------
+\begin{abstracts}     %this creates the heading for the abstract page
+	\addcontentsline{toc}{section}{Abstract}  %%% TOC에 표시
+	\noindent{
+		Stars are born when matter from interstellar molecular clouds fall to its center to increase the mass of the protostar. Bipolar outflows are formed to remove the excess angular momentum of falling matter. Intensities of outflows are known as to be in a close relationship with their bolometric luminosity and evolutionary stages. In this paper, data from Institute for Radio Astronomy in the Millimeter Range 30m Telescope (IRAM) and Taeduk Radio Astronomy Observatory (TRAO) are used. IRAM was used to map $^{12}CO J=2-1$ over Orion A molecular cloud. TRAO was used to map $^{13}CO J=1-0$ over the same region. Outflows were observed and measured by drawing contour maps and line profiles of  red/blue shifted components. SEDs were drawn for each protostars that outflows were detected. Outflows could be detected better if the energy level of the emmision line is higher. Also, the correlation between a protostar's luminosity, envelope mass, and outflow force have been confirmed.
+	}
+\end{abstracts}
+
+
+%----------------------------------------------
+%   Table of Contents (자동 작성됨)
+%----------------------------------------------
+\cleardoublepage
+\addcontentsline{toc}{section}{Contents}
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+\baselineskip=2.2em
+\tableofcontents
+
+
+%----------------------------------------------
+%     List of Figures/Tables (자동 작성됨)
+%----------------------------------------------
+\cleardoublepage
+\clearpage
+\listoftables
+% 표 목록과 캡션을 출력한다. 만약 논문에 표가 없다면 이 위 줄의 맨 앞에 
+% `%' 기호를 넣어서 주석 처리한다.
+
+\cleardoublepage
+\clearpage
+\listoffigures
+% 그림 목록과 캡션을 출력한다. 만약 논문에 그림이 없다면 이 위 줄의 맨 앞에 
+% `%' 기호를 넣어서 주석 처리한다.
+
+\cleardoublepage
+\clearpage
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
