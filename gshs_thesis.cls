@@ -332,9 +332,9 @@
 \titleformat{\section}[hang]
 {\normalfont\fontsize{21}{21}\selectfont\bfseries}{\Roman{section}.}{1em}{}
 \titleformat{\subsection}[hang]
-{\normalfont\fontsize{16}{16}\selectfont\bfseries}{\Roman{section}.\Roman{subsection}}{1em}{}
+{\normalfont\fontsize{16}{16}\selectfont\bfseries}{\Roman{section}.\arabic{subsection}}{1em}{}
 \titleformat{\subsubsection}[hang]
-{\normalfont\fontsize{14}{14}\selectfont}{\Roman{section}.\Roman{subsection}.\arabic{subsubsection}}{1em}{}
+{\normalfont\fontsize{14}{14}\selectfont}{\Roman{section}.\arabic{subsection}.\arabic{subsubsection}}{1em}{}
 \titleformat{\paragraph}[hang]
 {\normalfont\fontsize{12}{12}\selectfont\it}{}{1em}{}
 
