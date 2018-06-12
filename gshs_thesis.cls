@@ -6,12 +6,18 @@
 %%%  Also refer to https://www.facebook.com/gshstexsociety                    %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% 2016.02.25 변경사항(by 14088 이주찬)
-%% 한글, 영어 날짜 양식을 하나로 통합
-
 \ProvidesClass{gshs_thesis}
-\LoadClass[pdftex, a4paper]{article}
 
+\usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
+
+\ifxetex
+\LoadClass[11pt]{article}
+\else
+\usepackage[nonfrench]{kotex}
+\LoadClass[pdftex, 11pt]{article}
+\fi 
+
+\usepackage{geometry}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -23,8 +29,13 @@
 \usepackage{cite}   % citation [1,2,3] --> [1-3]
 \usepackage{tocloft}
 \usepackage[toc,page]{appendix}
+
+\ifxetex
+\else
 \usepackage[T1]{fontenc}   % To use Times New Roman
 \usepackage[utf8]{inputenc}% To use Times New Roman
+\fi
+
 \usepackage{mathptmx}      % To use Times New Roman
 \usepackage{array}
 \usepackage{setspace}
@@ -32,6 +43,11 @@
 \usepackage{enumitem} % itemize, enumerate 환경 여백 조절
 \setitemize{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
 \setenumerate{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
+
+\bibliographystyle{gshs_thesis}
+%\usepackage[numbers,sort&compress]{natbib}
+%\setlength{\bibsep}{0em}
+%\bibliographystyle{gshs_thesisnat}
 
 \usepackage{etoolbox}
 \apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
@@ -42,17 +58,17 @@
 
 \setlength{\hoffset}{0pt}
 \setlength{\voffset}{0pt}
-\setlength{\paperwidth}{597pt}
-\setlength{\paperheight}{845pt}
-\setlength{\oddsidemargin}{42pt}
-\setlength{\evensidemargin}{42pt}
+\setlength{\paperwidth}{195mm}
+\setlength{\paperheight}{255mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\evensidemargin}{0mm}
 \setlength{\topmargin}{0pt}
 \setlength{\headheight}{0pt}
-\setlength{\headsep}{25pt}
-\setlength{\textheight}{569pt}
-\setlength{\textwidth}{384pt}
-\setlength{\marginparsep}{10pt}
-\setlength{\marginparwidth}{35pt}
+\setlength{\headsep}{0pt}
+\setlength{\textheight}{200mm}
+\setlength{\textwidth}{145mm}
+\setlength{\marginparsep}{0mm}
+\setlength{\marginparwidth}{0mm}
 \setlength{\footskip}{56pt}
 
 
@@ -62,9 +78,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\thepage}{\roman{page}}
 \def\degreeyear#1{\gdef\@degreeyear{#1}}
-%\def\degreedate#1#2#3{\gdef\@degreedate{#1. #2. #3}\gdef\@degreedatekor{#1년 #2월 #3일}}
-\def\degreedate#1{\gdef\@degreedate{#1}}
-\def\degreedatekor#1{\gdef\@degreedatekor{#1}}
+\def\degreedate#1#2#3{\gdef\@degreedate{#1. #2. #3.}\gdef\@degreedatekor{#1년 
+#2월 #3일}}
+%한글, 영어 양식 하나로 통합.
 \def\studid#1{\gdef\@studid{#1}}
 \def\engname#1{\gdef\@engname{#1}}
 \def\korname#1{\gdef\@korname{#1}}
@@ -318,14 +334,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Chapter/section title format %%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\titleformat{\section}[hang]
-%{\normalfont\LARGE\bfseries}{\Roman{section}.}{1em}{}
-%\titleformat{\subsection}[hang]
-%{\normalfont\Large\bfseries}{\arabic{section}.\arabic{subsection}}{1em}{}
-%\titleformat{\subsubsection}[hang]
-%{\normalfont\large}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}{1em}{}
-
 % ``각 절 제목의 글자는 section (21pt, bold face), subsection (16pt, bold face), subsubsection (14pt, normal style), paragraph (12pt, Italic)로 설정한다.''
 % ``각 절의 첫 문단은 들여쓰기를 하지 않지만, 두 번째 문단 이후부터는 들여쓰기 (16pt)를 한다. 각 절의 제목에는 글씨 크기에 비례하는 상하 여백을 준다.''
 % 졸업논문 hwp 양식에서 따옴
@@ -339,16 +347,22 @@
 {\normalfont\fontsize{12}{12}\selectfont\it}{}{1em}{}
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% caption format %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\renewcommand{\figurename}{Fig.}
 \captionsetup[figure]{%
 	font=small,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
-	belowskip=0pt, margin=0pt,subrefformat=parens%
+	belowskip=5pt, margin=0pt,subrefformat=parens%
 }
 \captionsetup[table]{%
-	font=small,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	margin=0pt%
+}
+\captionsetup[equation]{%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
 	margin=0pt%
 }
 
@@ -392,3 +406,30 @@
 \vspace{0.5cm}
 }
 {\end{alwayssingle}}
+
+
+
+\ifxetex
+%한글 사용 옵션
+%\RequirePackage{xetexko}
+%\setmainfont[Ligatures=TeX]{Times New Roman}
+%\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+%	ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
+
+\RequirePackage{xetexko}
+	\setmainfont[Ligatures=TeX]{Times New Roman}
+	\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+	ItalicFont=*,ItalicFeatures=FakeSlant]{NanumMyeongjo}
+
+%\setmainfont[Ligatures=TeX]{NanumMyeongjo}
+%\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+%ItalicFont=*,ItalicFeatures=FakeSlant]{NanumMyeongjo}
+
+%\setmainfont[Ligatures=TeX]{times}
+%\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+%ItalicFont=*,ItalicFeatures=FakeSlant]{batang}
+
+\disablecjksymbolspacing
+\nonfrenchspacing
+\else
+\fi
