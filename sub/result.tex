@@ -1,7 +1,11 @@
 \section{Results}
 
+
+\subsection{Outflow Identification}
+
 \begin{table}[h!]
 	\caption{Protostars with observed outflows.}
+	\label{protostars}
 	\begin{center}
 		\begin{tabular}{c|c|c|c|c}
 			\toprule
@@ -21,31 +25,7 @@
 		\end{tabular}
 	\end{center}
 \end{table}
-
-\subsection{Outflow Identification}
-
-The column density can be calculated as the following expression:
-\begin{align}
-N_{H_2} =& \frac{8\pi \nu^3}{c^3} \frac{1}{(2J_l +3)A}  \notag \\
-& \times \frac{Z(T_{ex})}{exp(-E_l / kT_{ex})[1-exp(h\nu / kT_{ex})]} \notag \\
-& \times \frac{\int T_B dV}{J(T_{ex})-J(T_{bg})}
-\end{align}
-
-\begin{equation}
-	J(T) = \frac{h \nu / k}{exp(h\nu / kT)-1}
-\end{equation}
-
-In the above equation, $\nu$ is the corresponding frequency of emission line, $c$ is the speed of light, $J_l$ is the rotational quantum number of the lower energy level, $A$ is the Einstein A coefficient, $Z$ is the partition function, $E_l$ is the rotational energy of the lower energy level, $k$ is the Boltzmann's constant, $T_{ex}$ is the excitation temperature of the transitions, $\int T_B dV$ is the integrated intensity measured, $T_{bg}$ is the background radiation temperature. I assumed a local thermal equilibrium(LTE) excitation at an outflow temperature of 50$\,$K \cite{takahashi2008millimeter}.\\
-
-The mass within one beam can be calculated as the following:
-
-\begin{equation}
-M_B =  \frac{\pi}{4} D^2 \theta_B ^2 X[\textrm{CO}] N_{\textrm{H}_2} m_{\textrm{H}_2}
-\end{equation}
-
-$D$ is the distance to the objects, $\theta_B$ is the beam size, $m_{\textrm{H}_2}$ is the mass of one hydrogen molecule. $X[\textrm{CO}]$ is the abundance ratio of CO to $\textrm{H}_2$. In this paper, $D = 450\,\textrm{pc}$ and $X[\textrm{CO}] = 10^{-4}$ was used \cite{hatchell2007star}.\\
-
-
+Table \ref{protostars} shows the protostars with bipolar outflows observed. 
 
 \subsubsection{$^{12}$CO J = 2 - 1 Observations}
 
@@ -136,21 +116,6 @@ $D$ is the distance to the objects, $\theta_B$ is the beam size, $m_{\textrm{H}_
 \newpage
 
 \subsection{Momentum Flux}
-
-The momentum flux within one beam is calculated as the following:
-
-\begin{equation}
-\dot{P} = \frac{dP}{dt} = \sum_{v} {\frac{M_B (v) (v/ \cos i)}{D\theta_B / (v \tan i)}}
-\end{equation}
-
-$v$ is the velocity offset from $v_{cen}$, $M_B (v)$ is the mass within one beam, $i$ is the inclination within one beam \cite{hatchell2007star}.
-Then the momentum flux from individual beams are summed in annuli. 
-
-\begin{equation}
-F_{\textrm{CO}} = \sum _{annulus} \frac{2\pi \theta_r}{N_{pix}\theta_B}\dot{P}	
-\end{equation}
-
-$N_{pix}$ is the number of pixels in a annulus. $\theta_r$ is the distance between each pixel and the outflow center. $\theta_B$ is the beam size \cite{hatchell2007star, van2013outflow}.
 
 
 \begin{table}[h]
