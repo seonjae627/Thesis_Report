@@ -9,28 +9,26 @@ A level-1 auxiliary file: sub/result.aux
 A level-1 auxiliary file: sub/conclusion.aux
 A level-1 auxiliary file: sub/footer.aux
 Database file #1: bibfile.bib
-Warning--I didn't find a database entry for "Oriondistance"
-Warning--I didn't find a database entry for "Hatchell2"
 You've used 13 entries,
             2759 wiz_defined-function locations,
-            699 strings with 8134 characters,
-and the built_in function-call counts, 5688 in all, are:
-= -- 349
-> -- 466
-< -- 60
-+ -- 192
-- -- 166
-* -- 627
-:= -- 1159
+            695 strings with 8273 characters,
+and the built_in function-call counts, 5796 in all, are:
+= -- 345
+> -- 496
+< -- 66
++ -- 204
+- -- 178
+* -- 640
+:= -- 1200
 add.period$ -- 40
 call.type$ -- 13
 change.case$ -- 38
 chr.to.int$ -- 0
 cite$ -- 13
 duplicate$ -- 179
-empty$ -- 316
-format.name$ -- 179
-if$ -- 1018
+empty$ -- 310
+format.name$ -- 191
+if$ -- 1034
 int.to.chr$ -- 0
 int.to.str$ -- 26
 missing$ -- 14
@@ -40,16 +38,15 @@ pop$ -- 46
 preamble$ -- 1
 purify$ -- 52
 quote$ -- 0
-skip$ -- 86
+skip$ -- 85
 stack$ -- 0
-substring$ -- 203
+substring$ -- 181
 swap$ -- 71
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 38
 warning$ -- 0
-while$ -- 42
+while$ -- 41
 width$ -- 15
 write$ -- 171
-(There were 2 warnings)
