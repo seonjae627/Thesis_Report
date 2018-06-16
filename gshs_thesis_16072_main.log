@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.11)  14 JUN 2018 08:13
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.15)  16 JUN 2018 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1494,25 +1494,113 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \c@nlinenum=\count323
 \TeXr@lab=\toks48
 ))
+(c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
 (./gshs_thesis_16072_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
 (./sub/methodology.aux) (./sub/result.aux) (./sub/conclusion.aux)
 (./sub/footer.aux))
 \openout1 = `gshs_thesis_16072_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1591,20 +1679,21 @@ Package caption Info: End \AtBeginDocument code.
 \symmathhangul=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
 (Font)                  TU/NanumMyeongjo(0)/m/n --> TU/NanumMyeongjo(0)/bx/n on
- input line 19.
+ input line 20.
 
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 19.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
-
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 19.
-Package gensymb Info: Using \upOmega for \ohm on input line 19.
-
-Package gensymb Warning: Not defining \micro.
+\symgns@font=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/TimesNewRoman(0)/m/n --> TS1/TimesNewRoman(0)/bx/n 
+on input line 20.
+Package gensymb Info: Math companion symbols declared on input line 20.
+LaTeX Info: Redefining \degree on input line 20.
+LaTeX Info: Redefining \celsius on input line 20.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 20.
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \textohm for \ohm on input line 20.
+Package gensymb Info: Using \textmu for \micro on input line 20.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
@@ -1647,7 +1736,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [1
+LaTeX Font Info:    Try loading font information for TS1+TimesNewRoman(0) on in
+put line 1.
+LaTeX Font Info:    No file TS1TimesNewRoman(0).fd. on input line 1.
+
+
+LaTeX Font Warning: Font shape `TS1/TimesNewRoman(0)/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead on input line 1.
+
+[1
 
 
 
@@ -1659,32 +1756,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [3] [4]
-[1] [2] (./gshs_thesis_16072_main.toc)
+ [3] [4] [1] [2] [3] (./gshs_thesis_16072_main.toc)
 \tf@toc=\write4
 \openout4 = `gshs_thesis_16072_main.toc'.
 
- [3
+ [4
 
-] (./gshs_thesis_16072_main.lof)
+]
+(./gshs_thesis_16072_main.lof)
 \tf@lof=\write5
 \openout5 = `gshs_thesis_16072_main.lof'.
 
-
-[4
+ [5
 
 
 ] (./gshs_thesis_16072_main.lot)
 \tf@lot=\write6
 \openout6 = `gshs_thesis_16072_main.lot'.
 
- [5
+ [6
 
 
 ])
 \openout2 = `sub/introduction.aux'.
 
- (./sub/introduction.tex) [1
+
+(./sub/introduction.tex) [1
 
 
 
@@ -1692,14 +1789,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 ]
 \openout2 = `sub/methodology.aux'.
 
+ (./sub/methodology.tex
+Overfull \hbox (4.4231pt too wide) in paragraph at lines 8--13
+\TU/TimesNewRoman(0)/m/n/10.95 The $[][]$) data was observed with the IRAM $[]$
+ telescope in Granada,
+ []
 
-(./sub/methodology.tex
-File: images/RNE_12CO_Orion.png Graphic file (type bmp)
-<images/RNE_12CO_Orion.png>
-File: images/Orion_13CO_intmap.png Graphic file (type bmp)
-<images/Orion_13CO_intmap.png>
 
-Overfull \hbox (1.85887pt too wide) in paragraph at lines 7--19
+Overfull \hbox (1.85887pt too wide) in paragraph at lines 8--13
 \TU/TimesNewRoman(0)/m/n/10.95 The $[]$CO (J = 1 - 0, $\OT1/ztmcm/m/n/10.95 115
 \OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10.95 271 GHz$\TU/TimesNewRoman(0)/m/n/10
 .95 ) data was observed with the NRO 45m telescope in Nobeyama,
@@ -1708,24 +1805,35 @@ Overfull \hbox (1.85887pt too wide) in paragraph at lines 7--19
 [2
 
 
-]) [3] [4]
+]
+File: images/RNE_12CO_Orion.png Graphic file (type bmp)
+<images/RNE_12CO_Orion.png>
+File: images/Orion_13CO_intmap.png Graphic file (type bmp)
+<images/Orion_13CO_intmap.png>
+) [3] [4]
 \openout2 = `sub/result.aux'.
 
  (./sub/result.tex
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 30.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+
+
+LaTeX Font Warning: Font shape `TS1/TimesNewRoman(0)/m/n' in size <8.40009> not
+ available
+(Font)              size <8> substituted on input line 28.
+
 File: images/Orion_12CO2-1_FIR2_rbcontour_400_modified.png Graphic file (type b
 mp)
 <images/Orion_12CO2-1_FIR2_rbcontour_400_modified.png>
 File: images/Orion_12CO2-1_FIR2_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_FIR2_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 34--38
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 32--35
  [] 
  []
 
@@ -1735,7 +1843,7 @@ mp)
 File: images/Orion_12CO2-1_FIR3_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_FIR3_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 44--48
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 42--46
  [] 
  []
 
@@ -1748,7 +1856,7 @@ bmp)
 File: images/Orion_12CO2-1_FIR6b_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_FIR6b_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 54--58
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 52--56
  [] 
  []
 
@@ -1761,7 +1869,7 @@ mp)
 File: images/Orion_12CO2-1_MMS2_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_MMS2_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 64--68
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 62--66
  [] 
  []
 
@@ -1774,7 +1882,7 @@ mp)
 File: images/Orion_12CO2-1_MMS5_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_MMS5_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 74--78
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 72--76
  [] 
  []
 
@@ -1791,19 +1899,47 @@ mp)
 File: images/Orion_12CO2-1_MMS9_line_profile_400.png Graphic file (type bmp)
 <images/Orion_12CO2-1_MMS9_line_profile_400.png>
 
-Overfull \hbox (9.7736pt too wide) in paragraph at lines 85--89
+Overfull \hbox (9.7736pt too wide) in paragraph at lines 83--87
  [] 
  []
 
 
-Package caption Warning: \label without proper reference on input line 67.
+Package caption Warning: \label without proper reference on input line 45.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `MMS221' on page 8 undefined on input line 97.
+LaTeX Warning: Reference `FIR321' on page 8 undefined on input line 93.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Package caption Warning: \label without proper reference on input line 55.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `FIR6b21' on page 8 undefined on input line 94.
+
+
+Package caption Warning: \label without proper reference on input line 65.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `MMS221' on page 8 undefined on input line 95.
+
+
+Package caption Warning: \label without proper reference on input line 75.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `MMS521' on page 8 undefined on input line 96.
+
+
+Package caption Warning: \label without proper reference on input line 86.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `MMS921' on page 8 undefined on input line 97.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
 
  []
 
@@ -1817,17 +1953,38 @@ File: images/Orion_12CO_NRO_HOPS370_rbcontour_400.png Graphic file (type bmp)
 File: images/Orion_12CO_NRO_HOPS78_rbcontour_400.png Graphic file (type bmp)
 <images/Orion_12CO_NRO_HOPS78_rbcontour_400.png>
 
-Overfull \hbox (52.96388pt too wide) in paragraph at lines 104--108
+Overfull \hbox (52.96388pt too wide) in paragraph at lines 103--109
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Package caption Warning: \label without proper reference on input line 107.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `10' on page 9 undefined on input line 123.
+
+
+Package caption Warning: \label without proper reference on input line 107.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `10' on page 9 undefined on input line 124.
+
+
+Package caption Warning: \label without proper reference on input line 107.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `10' on page 9 undefined on input line 125.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
@@ -1839,34 +1996,48 @@ File: Luminosity.pdf Graphic file (type pdf)
 ]
 File: outflow_J.pdf Graphic file (type pdf)
 <use outflow_J.pdf>
-) [12]
+
+
+LaTeX Warning: Reference `J' on page 12 undefined on input line 177.
+
+
+LaTeX Warning: Reference `J' on page 12 undefined on input line 181.
+
+) [12] [13]
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex) [13
+ (./sub/conclusion.tex) [14
 
 
-] (./gshs_thesis_16072_main.bbl
-[14
+] (./gshs_thesis_16072_main.bbl [15
 
-]) [15]
+])
+[16]
 \openout2 = `sub/footer.aux'.
 
- (./sub/footer.tex [16
+ (./sub/footer.tex [17
 
-] [17]) (./gshs_thesis_16072_main.aux
+] [18]) (./gshs_thesis_16072_main.aux
 (./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
 (./sub/result.aux) (./sub/conclusion.aux) (./sub/footer.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.40009pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 42086 strings out of 492970
- 977527 string characters out of 6137298
- 1163950 words of memory out of 5000000
- 45359 multiletter control sequences out of 15000+600000
- 561916 words of font info for 160 fonts, out of 8000000 for 9000
+ 42515 strings out of 492970
+ 984374 string characters out of 6137298
+ 1166065 words of memory out of 5000000
+ 45767 multiletter control sequences out of 15000+600000
+ 564288 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,18n,138p,10596b,2466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gshs_thesis_16072_main.pdf (26 pages).
+Output written on gshs_thesis_16072_main.pdf (28 pages).
