@@ -7,14 +7,15 @@
 \contentsline {subsection}{\numberline {2.1}Observation Region}{2}
 \contentsline {subsection}{\numberline {2.2}Observation Data}{2}
 \contentsline {subsection}{\numberline {2.3}Identification of Outflows}{3}
-\contentsline {section}{\numberline {3}Results}{5}
-\contentsline {subsection}{\numberline {3.1}Outflow Identification}{5}
-\contentsline {subsubsection}{\numberline {3.1.1}$^{12}$CO J = 2 - 1 Observations}{5}
-\contentsline {subsubsection}{\numberline {3.1.2}$^{12}$CO J = 1 - 0 Observations}{9}
-\contentsline {subsection}{\numberline {3.2}Momentum Flux}{10}
-\contentsline {subsection}{\numberline {3.3}Momentum flux vs. Bolometric luminosity}{11}
-\contentsline {subsection}{\numberline {3.4}Momentum flux by emission line energy level}{12}
-\contentsline {section}{\numberline {4}Conclusion}{14}
-\contentsline {section}{References}{15}
-\contentsline {section}{감사의 글}{17}
-\contentsline {section}{연구활동}{18}
+\contentsline {subsection}{\numberline {2.4}Calculating Momentum Flux}{5}
+\contentsline {section}{\numberline {3}Results}{6}
+\contentsline {subsection}{\numberline {3.1}Outflow Identification}{6}
+\contentsline {subsubsection}{\numberline {3.1.1}$^{12}$CO J = 2 - 1 Observations}{6}
+\contentsline {subsubsection}{\numberline {3.1.2}$^{12}$CO J = 1 - 0 Observations}{10}
+\contentsline {subsection}{\numberline {3.2}Momentum Flux}{11}
+\contentsline {subsection}{\numberline {3.3}Momentum flux vs. Bolometric luminosity}{12}
+\contentsline {subsection}{\numberline {3.4}Momentum flux by emission line energy level}{14}
+\contentsline {section}{\numberline {4}Conclusion}{16}
+\contentsline {section}{References}{17}
+\contentsline {section}{감사의 글}{19}
+\contentsline {section}{연구활동}{20}
