@@ -264,7 +264,8 @@
     {\begin{spacing}{1.0}\LARGE\bfseries\@engtitle\end{spacing}}
     \end{center}
   \end{minipage}
-  \par\vspace{35mm}
+  %\par\vspace{35mm}
+  \par\vspace{30mm}
   {\LARGE \bfseries  Abstract}
   \end{center}
   \par\vspace{0.5cm}
