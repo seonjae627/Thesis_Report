@@ -9,7 +9,7 @@ The $^{12}\textrm{CO (J = 2 - 1, 230.538\,GHz)}$ data was observed with the IRAM
 
 The $^{12}\textrm{CO (J = 1 - 0, 115.271\,GHz})$ data was observed with the NRO 45m telescope in Nobeyama, Japan.
 
-The $^{13}\textrm{CO (J = 1 - 0, 110.201\,GHz})$ and the $\textrm{C}^{18}\textrm{O (J = 1 - 0, 109.782\,GHz})$ data were observed at Taeduk Radio Astronomy Observatory (TRAO)  $\textrm{13.7\,m}$ telescope in 2017. The spatial beamwidth was $\textrm 45^{\prime\prime}$, and the spectral resolution was 0.05$\, \rm km\,s^{-1}$. The noise level was 0.4$\,$K.\\
+The $^{13}\textrm{CO (J = 1 - 0, 110.201\,GHz})$ and the $\textrm{C}^{18}\textrm{O (J = 1 - 0, 109.782\,GHz})$ data were observed with the $\textrm{13.7\,m}$ telescope at Taeduk Radio Astronomy Observatory (TRAO) in 2017. The spatial beamwidth was $\textrm 45^{\prime\prime}$, and the spectral resolution was 0.05$\, \rm km\,s^{-1}$. The noise level was 0.4$\,$K.\\
 $^{13}\textrm{CO}$ and $\textrm{C}^{18}\textrm{O}$ lines are optically thin lines which can trace most of the matter on the line of sight, contrasting to $^{12}\textrm{CO}$ lines which are so optically oblique that it can only trace the outermost part of the molecular core. In this study, I used TRAO data to determine the protostar's velocity and linewidth which are the kinematic properties of the envelope. Then, I will trace the outflow jets using $^{12}$CO data.
 %%%박기현 수정 끝
 
@@ -28,13 +28,14 @@ Figure \ref{fig:map1} shows the data from IRAM and TRAO. The intensity of the $^
 			\includegraphics[width=0.45\textwidth]{RNE_12CO_Orion} & \includegraphics[width=0.45\textwidth]{Orion_13CO_intmap}
 		\end{tabular}
 	\end{center}
-	\caption{Orion A $^{12}$CO (J = 2 - 1) integrated intensity map(left) $^{13}$CO integrated intensity map(right).}
+	\caption{Orion A $^{12}$CO (J = 2 - 1) integrated intensity map(left) $^{13}$CO (J = 1 - 0) integrated intensity map(right).}
 	\label{fig:map1}  %%%박기현샘 추가함 (이렇게 넣어야 제데로 ref 됨.)
 	%%% 박기현 레이블을 달고, 본문에서 언급하면 latex에서 알아서 같은 페이지로 보내줌.
 \end{figure}
 
 \subsection{Identification of Outflows}
-Data obtained by observing with radio waves are summed over the line of sight, which tells us the distribution of matter which has relative radial velocity to the observer. The envelope around the protostar is static or is contracting slowly to the protostar itself, but outflow jets have big velocity components from each pole. If the inclination of the outflows are not zero, it would be seen as jets are moving closer or further from the observer. In this study, $^{13}$CO and $\textrm{C}^{18}\textrm{O}$ lines were used to get the velocity distribution of the protostar. By using Gaussian fitting, I calculated the protostar’s central velocity($v_{cen}$) and the full width at half maximum (FWHM). The intervals of the red/blue lobes were defined by how far is it from the center velocity and how strong the intensity is.
+Data obtained by observing with radio waves are summed over the line of sight, which tells us the distribution of matter which has relative radial velocity to the observer. The envelope around the protostar is static or is contracting slowly to the protostar itself, but outflow jets have big velocity components from each pole. If the inclination of the outflows are not zero, it would be seen as jets are moving closer or further from the observer. \\
+In this study, $^{13}$CO and $\textrm{C}^{18}\textrm{O}$ lines were used to get the velocity distribution of the protostar. By using Gaussian fitting, I calculated the protostar’s central velocity($v_{cen}$) and the full width at half maximum (FWHM). The intervals of the red/blue lobes were defined by how far is it from the center velocity and how strong the intensity is.
 
 Because the emission lines of $^{12}$CO are optically thicker than other lines, it is appropriate to trace the outflows with $^{12}$CO lines. I drew contour maps to find out if bipolar outflows existed with the protostar at its center. To check if the red blue lobes that are found are outflows from the same protostar I checked the $^{12}$CO, $^{13}$CO, $\textrm{C}^{18}\textrm{O}$ lines from the red peak, blue peak, and the center points. For each outflows confirmed, I calculated the column density and the momentum force.
 
@@ -50,7 +51,6 @@ J(T) = \frac{h \nu / k}{exp(h\nu / kT)-1}
 \end{equation}
 
 In the above equation, $\nu$ is the corresponding frequency of emission line, $c$ is the speed of light, $J_l$ is the rotational quantum number of the lower energy level, $A$ is the Einstein A coefficient, $Z$ is the partition function, $E_l$ is the rotational energy of the lower energy level, $k$ is the Boltzmann's constant, $T_{ex}$ is the excitation temperature of the transitions, $\int T_B dV$ is the integrated intensity measured, $T_{bg}$ is the background radiation temperature. I assumed a local thermal equilibrium(LTE) excitation at an outflow temperature of 50$\,$K \cite{takahashi2008millimeter}.\\
-
 The mass within one beam can be calculated as the following:
 
 \begin{equation}
