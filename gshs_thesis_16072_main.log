@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.15)  17 JUN 2018 20:41
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.11)  18 JUN 2018 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1762,19 +1762,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 
  [3
 
-] [4]
+]
 (./gshs_thesis_16072_main.lof)
 \tf@lof=\write5
 \openout5 = `gshs_thesis_16072_main.lof'.
 
- [5
+ [4
 
 
 ] (./gshs_thesis_16072_main.lot)
 \tf@lot=\write6
 \openout6 = `gshs_thesis_16072_main.lot'.
 
- [6
+ [5
 
 
 ])
@@ -1814,17 +1814,12 @@ File: images/RNE_12CO_Orion.png Graphic file (type bmp)
 <images/RNE_12CO_Orion.png>
 File: images/Orion_13CO_intmap.png Graphic file (type bmp)
 <images/Orion_13CO_intmap.png>
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
+ [3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[4]) [5]
+) [5]
 \openout2 = `sub/result.aux'.
 
  (./sub/result.tex
@@ -1968,7 +1963,7 @@ File: outflow_J.pdf Graphic file (type pdf)
 
  (./sub/footer.tex [17
 
-] [18]) (./gshs_thesis_16072_main.aux
+]) (./gshs_thesis_16072_main.aux
 (./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
 (./sub/result.aux) (./sub/conclusion.aux) (./sub/footer.aux))
 
@@ -1982,10 +1977,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  42516 strings out of 492970
  984518 string characters out of 6137298
- 1165938 words of memory out of 5000000
+ 1165920 words of memory out of 5000000
  45768 multiletter control sequences out of 15000+600000
  564288 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,18n,138p,10596b,2466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gshs_thesis_16072_main.pdf (28 pages).
+Output written on gshs_thesis_16072_main.pdf (26 pages).
