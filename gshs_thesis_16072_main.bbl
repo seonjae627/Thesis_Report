@@ -72,25 +72,53 @@ van~der Marel, N., Kristensen, L.~E., Visser, R., Mottram, J.~C., Y{\i}ld{\i}z,
   quantitative comparison of analysis methods.
 \newblock {\em Astronomy \& Astrophysics}, {\em 556}, A76.
 
-\bibitem[12]{hogerheijde1998envelope}
+\bibitem[12]{chini1997dust}
+Chini, R and Reipurth, Bo and Ward-Thompson, D and Bally, J and Nyman, L-{\AA} and Sievers, A and Billawala, Y. (1997).
+\newblock Dust filaments and star formation in OMC-2 and OMC-3.
+\newblock {\em The Astrophysical Journal Letters}, {\em 474\/}(2), L135.
+
+\bibitem[13]{nielbock2003stellar}
+Nielbock, Markus and Chini, Rolf and Mueller, Sven AH. (2003).
+\newblock The stellar content of OMC 2/3.
+\newblock {\em Astronomy \& Astrophysics}, {\em 408\/}(1), 245--256
+
+
+
+
+@article{nielbock2003stellar,
+title={The stellar content of OMC 2/3},
+author={Nielbock, Markus and Chini, Rolf and Mueller, Sven AH},
+journal={Astronomy \& Astrophysics},
+volume={408},
+number={1},
+pages={245--256},
+year={2003},
+publisher={EDP Sciences}
+}
+\bibitem[14]{hogerheijde1998envelope}
 Hogerheijde, M.~R., van Dishoeck, E.~F., Blake, G.~A., \& van Langevelde, H.~J.
   (1998).
 \newblock Envelope structure on 700 au scales and the molecular outflows of
   low-mass young stellar objects.
 \newblock {\em The Astrophysical Journal}, {\em 502\/}(1), 315.
 
-\bibitem[13]{nakamura2012evidence}
+\bibitem[15]{nakamura2012evidence}
 Nakamura, F., Miura, T., Kitamura, Y., Shimajiri, Y., Kawabe, R., Akashi, T.,
   .~.~. et~al. (2012).
 \newblock Evidence for cloud-cloud collision and parsec-scale stellar feedback
   within the l1641-n region.
 \newblock {\em The Astrophysical Journal}, {\em 746\/}(1), 25.
 
-\bibitem[14]{zhang2005search}
+\bibitem[16]{zhang2005search}
 Zhang, Q., Hunter, T., Brand, J., Sridharan, T., Cesaroni, R., Molinari, S.,
   .~.~. \& Kramer, M. (2005).
 \newblock Search for co outflows toward a sample of 69 high-mass protostellar
   candidates. ii. outflow properties.
 \newblock {\em The Astrophysical Journal}, {\em 625\/}(2), 864.
+
+
+
+
+
 
 \end{thebibliography}
