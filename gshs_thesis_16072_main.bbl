@@ -73,28 +73,16 @@ van~der Marel, N., Kristensen, L.~E., Visser, R., Mottram, J.~C., Y{\i}ld{\i}z,
 \newblock {\em Astronomy \& Astrophysics}, {\em 556}, A76.
 
 \bibitem[12]{chini1997dust}
-Chini, R and Reipurth, Bo and Ward-Thompson, D and Bally, J and Nyman, L-{\AA} and Sievers, A and Billawala, Y. (1997).
-\newblock Dust filaments and star formation in OMC-2 and OMC-3.
+Chini, R., Reipurth, B., Ward-Thompson, D., Bally, J., Nyman, L.-{\AA}.,
+  Sievers, A., \& Billawala, Y. (1997).
+\newblock Dust filaments and star formation in omc-2 and omc-3.
 \newblock {\em The Astrophysical Journal Letters}, {\em 474\/}(2), L135.
 
 \bibitem[13]{nielbock2003stellar}
-Nielbock, Markus and Chini, Rolf and Mueller, Sven AH. (2003).
-\newblock The stellar content of OMC 2/3.
-\newblock {\em Astronomy \& Astrophysics}, {\em 408\/}(1), 245--256
+Nielbock, M., Chini, R., \& Mueller, S.~A. (2003).
+\newblock The stellar content of omc 2/3.
+\newblock {\em Astronomy \& Astrophysics}, {\em 408\/}(1), 245--256.
 
-
-
-
-@article{nielbock2003stellar,
-title={The stellar content of OMC 2/3},
-author={Nielbock, Markus and Chini, Rolf and Mueller, Sven AH},
-journal={Astronomy \& Astrophysics},
-volume={408},
-number={1},
-pages={245--256},
-year={2003},
-publisher={EDP Sciences}
-}
 \bibitem[14]{hogerheijde1998envelope}
 Hogerheijde, M.~R., van Dishoeck, E.~F., Blake, G.~A., \& van Langevelde, H.~J.
   (1998).
@@ -115,10 +103,5 @@ Zhang, Q., Hunter, T., Brand, J., Sridharan, T., Cesaroni, R., Molinari, S.,
 \newblock Search for co outflows toward a sample of 69 high-mass protostellar
   candidates. ii. outflow properties.
 \newblock {\em The Astrophysical Journal}, {\em 625\/}(2), 864.
-
-
-
-
-
 
 \end{thebibliography}
