@@ -53,6 +53,7 @@
 \apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
 %\setstretch{1.5}
 
+\renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}} 
 % 주석 번호와 참고문헌 번호의 혼동을 막기 위해 arabic 대신 fnsymbol 사용(asterisk, dagger, double dagger, ...)
 
