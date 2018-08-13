@@ -42,12 +42,12 @@ Because the emission lines of $^{12}$CO are optically thicker than other lines, 
 The column density can be calculated with the following expression:
 \begin{align}
 	N_{H_2} =& \frac{8\pi \nu^3}{c^3} \frac{1}{(2J_l +3)A}  \notag \\
-	& \times \frac{Z(T_{ex})}{exp(-E_l / kT_{ex})[1-exp(h\nu / kT_{ex})]} \notag \\
+	& \times \frac{Z(T_{ex})}{\exp(-E_l / kT_{ex})[1-\exp(h\nu / kT_{ex})]} \notag \\
 	& \times \frac{\int T_B dV}{J(T_{ex})-J(T_{bg})} \label{column_density}
 \end{align}
 
 \begin{equation}
-J(T) = \frac{h \nu / k}{exp(h\nu / kT)-1}
+J(T) = \frac{h \nu / k}{\exp(h\nu / kT)-1}
 \end{equation}
 
 In equation (\ref{column_density}), $\nu$ is the corresponding frequency of the emission line, $c$ is the speed of light, $J_l$ is the rotational quantum number of the lower energy level, $A$ is the Einstein A coefficient, $Z$ is the partition function, $E_l$ is the rotational energy of the lower energy level, $k$ is the Boltzmann's constant, $T_{ex}$ is the excitation temperature of the transitions, $\int T_B dV$ is the integrated intensity measured, and $T_{bg}$ is the background radiation temperature. I assumed a local thermal equilibrium(LTE) excitation at an outflow temperature of 50$\,$K \cite{takahashi2008millimeter}.
